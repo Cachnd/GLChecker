@@ -10,3 +10,5 @@ pam_student = { 'name': 'Pam Bam', 'latitude': 34.071513, 'longitude': -118.4411
 
 student_list = [john_student,jane_student,pam_student]
 classroom_list = [geology_classroom,psychology_classroom,music_classroom,humanities_classroom,engineering_classroom]
+from function import studentsInClasses
+print(studentsInClasses(student_list, classroom_list))

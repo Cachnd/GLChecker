@@ -8,7 +8,8 @@ john_student = { 'name': 'John Wilson', 'latitude': 34.069849, 'longitude': -118
 jane_student = { 'name': 'Jane Graham', 'latitude': 34.069901, 'longitude': -118.441562 } # geology
 pam_student = { 'name': 'Pam Bam', 'latitude': 34.071523, 'longitude': -118.441171 } # humanities
 
-classroom_list = 
-[geology_classroom,psychology_classroom,music_classroom,humanities_classroom,engineering_classroom]
+classroom_list = [geology_classroom,psychology_classroom,music_classroom,humanities_classroom,engineering_classroom]
 
 student_list2 = [john_student,jane_student,pam_student]
+from function import studentsInClasses
+print(studentsInClasses(student_list2, classroom_list))
